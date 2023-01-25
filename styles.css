@@ -1,0 +1,75 @@
+body{
+  background-color: #3e5045;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  
+}
+.dice{
+  display: inline-block;
+  margin: 0px 2rem;
+}
+h1 {
+  font-size: 10rem;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: rgb(131, 122, 83);
+}
+
+p {
+  font-size: 2.5rem;
+  color: rgb(131, 126, 83);
+  font-family: 'Indie Flower', cursive;
+}
+
+img{
+  height: 18rem;
+}
+
+button{
+  border-style: none;
+  background-color: rgb(131, 126, 83);
+  font-size: 2rem;
+  color: rgb(240, 225, 225);
+  display: block;
+  margin: 4rem auto;
+  padding: 1rem;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 15%;
+}
+
+footer{
+  font-family: 'Indie Flower', cursive;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+  
+  font-weight: light;
+}
+
+/* for mobile friendly :) */
+@media (max-width:768px){
+  h1 {
+    font-size: 6.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  img{
+    height: 15rem;
+  }
+
+}
+
+@media (max-width:576px){
+  h1 {
+    font-size: 5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  img{
+    height: 10rem;
+  }
+
+}
